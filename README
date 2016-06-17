@@ -1,0 +1,9 @@
+Bonjour peter,
+comme vous le constaterez, j'ai réalisé le système de paiement paypal en natif php
+je n'ai plus utilisé le framework symfony2
+en effet le KNPBUNDLE de symfony incluant le process paypal de symfony est disponible pour symfony 3 (ce qui me demande de faire totalement une migration de mon projet
+vers symfony3 avec toutes les modifs necessaires).
+j'ai donc opté pour un projet php natif sur wamp server
+une fois que vous aurez acceder à l'adresse localhost/nom_projet_local/pages/validation.php, vous cliquerez sur le bouton payer et vous serez des lors redirigé vers paypal
+le traitement aassocié à paypal est dans ce validation.php
+j'ai utilisé l'API NVP  Paypal Express Checkout
